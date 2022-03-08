@@ -9,6 +9,17 @@ body {
     /* padding-top: 1rem; */
 }
 
+header {
+    background-color: #E8D0B3;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #E8D0B3;
+    /* margin: auto; */
+    overflow: hidden;
+}
+
 h1 {
     margin: 0 auto 0 auto;
     font-family: 'Handlee', cursive;
@@ -70,11 +81,6 @@ a:hover {
     margin: 1rem auto;
 }
 
-.bottom-container {
-    background-color: #66BFBF;
-    margin: auto;
-}
-
 /******************************CLASS*********************/
 
 .Name-ID {
@@ -85,7 +91,7 @@ a:hover {
 .Profile_pic {
     /* float: left; */
     width: 30%;
-    margin: 3rem 2rem 0 0;
+    margin-top: 2rem;
 }
 
 .Bio {
@@ -104,7 +110,7 @@ a:hover {
     width: 25%;
     float: left;
     margin-right: 2rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .modeling-skill-img {
@@ -114,26 +120,40 @@ a:hover {
 }
 
 .btn {
-    background: #42C2FF;
-    background-image: -webkit-linear-gradient(top, #42C2FF, #2980b9);
-    background-image: -moz-linear-gradient(top, #42C2FF, #2980b9);
-    background-image: -ms-linear-gradient(top, #42C2FF, #2980b9);
-    background-image: -o-linear-gradient(top, #42C2FF, #2980b9);
-    background-image: linear-gradient(to bottom, #42C2FF, #2980b9);
-    -webkit-border-radius: 32;
-    -moz-border-radius: 32;
-    border-radius: 8px;
+    background: #E8D0B3;
+    background-image: -webkit-linear-gradient(top, #E8D0B3, #E8D0B3);
+    background-image: -moz-linear-gradient(top, #E8D0B3, #E8D0B3);
+    background-image: -ms-linear-gradient(top, #E8D0B3, #E8D0B3);
+    background-image: -o-linear-gradient(top, #E8D0B3, #E8D0B3);
+    background-image: -webkit-gradient(to bottom, #E8D0B3, #E8D0B3);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #151D3B;
     font-family: Arial;
-    color: #ffffff;
     font-size: 20px;
+    font-weight: 100;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 0.5rem;
 }
 
 .btn:hover {
-    background: #3cb0fd;
+    border: solid #897D6F 0;
+    background: #BDA991;
+    background-image: -webkit-linear-gradient(top, #BDA991, #897D6F);
+    background-image: -moz-linear-gradient(top, #BDA991, #897D6F);
+    background-image: -ms-linear-gradient(top, #BDA991, #897D6F);
+    background-image: -o-linear-gradient(top, #BDA991, #897D6F);
+    background-image: -webkit-gradient(to bottom, #BDA991, #897D6F);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .footer-link {
@@ -142,14 +162,15 @@ a:hover {
 
 .copy-right {
     margin: 0.75rem auto 0 auto;
-    color: white;
-    font-size: 0.75rem
+    padding-bottom: 0.5re;
+    color: black;
+    font-size: 1rem
 }
 
 .twitter {
     background: #55ACEE;
     color: white;
-    
+
 }
 
 .likedin {
@@ -165,11 +186,49 @@ a:hover {
 .instagram {
     background: #125688;
     color: white;
-  }
+}
 
-  .social{
-    font-size: 2rem;
-    margin: 0.5rem 1rem 0;
+.social {
+    font-size: 1rem;
+    margin: 0.5rem 0.5rem 0;
     padding: 0.5rem;
     border-radius: 50%;
-  }
+}
+
+.projects-container {
+    display: inline-block;
+}
+
+.gallery {
+    margin: 2rem;
+    border: 1px solid #ccc;
+    float: left;
+    width: 40%
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.desc {
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #BDA991;
+    color: black
+}
